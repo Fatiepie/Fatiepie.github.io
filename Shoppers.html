@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neil's Portfolio | Shoppers.ai
+            
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+        <header>
+            <div class="logo">
+                <a href="index.html"img src="img/Dev Neo (1)z.png" alt="">
+                <img src="img/Dev Neo (1)z.png" alt="">
+            </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class ="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#exp" class="nav__link">Experience</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Introducing <strong>Shoppers.ai</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Prediction AI for shoppers</p>
+            <img src="img/AIret.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Welcome to the Shopping.ai, an artificial intelligence system that predicts whether online shopping customers will complete a purchase. 
+                The AI, who I have named Peggy, uses the k-nearest-neighbour classifier, fitted on the training data and is used as the basis for the training model, using the scikit-learn library.</p>
+                
+            <p>Given information about a user — how many pages they’ve visited, whether they’re shopping on a weekend, what web browser they’re using, etc. — Peggy predicts whether or not the user will make a purchase.
+
+            </p>
+            <p>It also won’t be perfectly accurate as a human, but it should be better than guessing randomly. To train your Francisco, the data from a shopping website from about 12,000 users sessions is used (courtesy of <a href="https://link.springer.com/article/10.1007/s00521-018-3523-0#citeas">Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Real-time prediction of online shoppers’ purchasing intention using multilayer perceptron and LSTM recurrent neural networks.
+            </a> </p>
+                <p>
+                    I hope you enjoy the demo!
+                </p>
+            </p>
+            <div class="videowrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZuzE6qx-fac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p>
+
+            </p>
+            <div style="text-align:center;">
+                <h3>How does Peggy work?</h3>
+            </div>
+            <p>
+                The system measures two values: sensitivity (also known as the “true positive rate”) and specificity (also known as the “true negative rate”). Sensitivity refers to the proportion of positive examples that were correctly identified: in other words, the proportion of users who did go through with a purchase who were correctly identified. Specificity refers to the proportion of negative examples that were correctly identified: in this case, the proportion of users who did not go through with a purchase who were correctly identified. 
+            </p>
+        
+            <div style="text-align:center;">
+                <h3>Lessons learned from the project</h3>
+            </div>
+            <p>
+                I learned alot about classifiers and how to train a model with a given data set, using the scikit learn library for Python. You could say this was my small step to the massive and amazing world of AI and machine learning!
+            </p>
+           
+        </div>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <p>
+                Stay in touch!
+            </p>
+            
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="mailto:n24ferna@uwaterloo.ca"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/n24ferna/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/neilfernandes10"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Fatiepie"><i class="fab fa-github"></i></a>
+                </li>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://devpost.com/Fatiepie?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+                    <i class="fab fa-dev"></i></a>
+                </li>
+            </ul>
+            <p>
+                Made by Neil Fernandes
+            </p>
+        </footer>  
+        
+        <script src="js/index.js">
+        </script>
+    </body>
+
+</html>

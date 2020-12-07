@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neil's Portfolio | Harriet.ai
+            
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+        <header>
+            <div class="logo">
+                <a href="index.html"img src="img/Dev Neo (1)z.png" alt="">
+                <img src="img/Dev Neo (1)z.png" alt="">
+            </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class ="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#exp" class="nav__link">Experience</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Introducing <strong>Harriet.ai</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Question answering AI</p>
+            <img src="img/img_9298.jpg" alt="" class="intro__img">
+        </section>
+      
+        
+        <div class="portfolio-item-individual">
+            <p>Welcome to Questions.ai, where Harriet the AI, uses Natural Language Processing to answer questions, given a query.
+
+            </p>
+            <p>
+                Harriet, a small sister to IBM's Watson, will perform two tasks: document retrieval and passage retrieval while having access to a corpus of text documents. 
+                When presented with a query (a question in English asked by the user), document retrieval will first identify which document(s) are most relevant to the query. 
+                Once the top documents are found, the top document(s) will be subdivided into passages (in this case, sentences) so that the most relevant passage to the question can be determined.
+            </p>
+            
+            <p>
+                Harriet uses tf-idf to rank documents based both on term frequency for words in the query as well as inverse document frequency for words in the query. 
+                Once we’ve found the most relevant documents, there many possible metrics for scoring passages, but we’ll use a combination of inverse document frequency and a query term density measure.
+            </p>
+
+            <p>
+                Hope you enjoy the demo!
+            </p>
+            <div class="videowrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X42gm5pl298" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        <p>
+
+        </p>
+
+            <div style="text-align:center;">
+                <h3>Inspiration behind Harriet </h3>
+            </div>
+            <p>
+                After a few AI projects, I wanted to dwell into the world of Natural Language Processing as NLP is a new technology, that I believe, 
+                would be an amazing asset to have on every piece of technology in our household devices or technology in general.
+
+            </p>
+            <p>
+                I wanted to learn whatever skills I had in Python to make a QnA AI that was similar to Watson who is a big scale and much more smarter version of Harriet. 
+                I say big scale as a question answering system of Watson’s accuracy requires enormous complexity and vast amounts of data, 
+            </p>
+           <p>
+               Hence, out of curiosity and learning different skills in AI, I entered into the realm of NLP through this project and another project named <a href="Parser.html">Parser.ai (Gary).</a>
+           </p>
+        <p>
+            
+        </p>
+          
+          
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                Stay in touch!
+            </p>
+            
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="mailto:n24ferna@uwaterloo.ca"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/n24ferna/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/neilfernandes10"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Fatiepie"><i class="fab fa-github"></i></a>
+                </li>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://devpost.com/Fatiepie?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+                    <i class="fab fa-dev"></i></a>
+                </li>
+            </ul>
+            <p>
+                Made by Neil Fernandes
+            </p>
+        </footer>  
+        
+        <script src="js/index.js">
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neil's Portfolio | Francesco
+            
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+        <header>
+            <div class="logo">
+                <a href="index.html"img src="img/Dev Neo (1)z.png" alt="">
+                <img src="img/Dev Neo (1)z.png" alt="">
+            </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class ="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#exp" class="nav__link">Experience</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Introducing <strong>Francesco</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Face mask detection system</p>
+            <img src="img/dwasd.jpeg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Welcome to Francesco, a machine learning face mask detection system that uses a software stack in Python, Tensorflow, Keras API and OpenCV! 
+                Francesco can also be applied on many embedded systems as it also uses 
+                MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Applications.</p>
+                <img src="">
+            <p>The main concept that Francesco uses is that of a convolutional neural network, or CNN for short, a neural network that uses convolution, usually for analyzing images. It starts by applying filters that can help distill some features of the image using different kernels. These filters can be improved in the same way as other weights in the neural network, by adjusting their kernels based on the error of the output. Then, the resulting images are pooled, after which the pixels are fed to a traditional neural network as inputs (a process called flattening).
+
+            </p>
+            <p>It then feeds the model into openCV where it uses my laptop's webcam (or any camera attached to the main program for that matter) to detect whether a person is wearing a mask or not in real time! </p>
+                <p>
+                    I hope you enjoy the demo!
+                </p>
+            </p>
+            <div class="videowrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/emdcdljuGRg" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen ></iframe>
+            </div>
+            <p>
+
+            </p>
+            <div style="text-align:center;">
+                <h3>Inspiration behind Francesco </h3>
+            </div>
+            <p>
+                In these troubled times of the COVID-19 Pandemic, you have to wear a mask to protect not only yourself, but for others around you as well.
+            </p>
+            <p>
+                Protection of the face is a must whenever you leave your houshold. However, due to the recurrent times of me forgetting my mask (and almost getting caught by the local police for not wearing my mask), I had to devise some sort of way 
+                to make sure I don't forget my mask.
+               That is when I decided to build a face mask detection system. But, I had asked myself "How am i able to do this?". 
+            </p>
+            <p>
+                At that point, after seaching up on how face detction and object detection systems worked, I had entered the amazing world of artificial intelligence and machine learning. 
+                I had taken the initiative of learning amazing tools like Tensorflow, KerasAPI and OpenCV which are very popular in the ML/AI world.
+                I must say, I really love OpenCV as it would really help me in my thirst for auotnomous self driving cars.
+            </p>
+            <div style="text-align:center;">
+                <h3>Lessons learned from the project</h3>
+            </div>
+            <p>
+                Due to the lack of resources of not having a NVIDIA Jetson and an Arduino board, I could not use an external video camera system (which 
+                I had initially intended to use). 
+                I was just left with my old laptop that rigged 30 mins before I always left the house (just in case). 
+                This happened for a few weeks until I had gotten the habit to always wear my mask. 
+                Nonetheless, I had integrated MobileNET, so that if I wish in the future to build a the setup, I may do so seamlessly.
+
+            </p>
+            <p>
+                Apart from hardware issues, I had alot of bugs when I initially started off (I mean who doesn't love some code bugs :o ). I also had a very bad time with my model. 
+                At first I had gotten about 75% accuracy. After that I had started to tinker with the amount of filters and the amount of pooling needed for the CNN and 
+                had figured out that having 130 dense filters and a 7X7 pool size was perfect, as I had attained ~96% accuracy!
+            </p>
+        </div>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <p>
+                Stay in touch!
+            </p>
+            
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="mailto:n24ferna@uwaterloo.ca"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/n24ferna/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/neilfernandes10"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Fatiepie"><i class="fab fa-github"></i></a>
+                </li>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://devpost.com/Fatiepie?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+                    <i class="fab fa-dev"></i></a>
+                </li>
+            </ul>
+            <p>
+                Made by Neil Fernandes
+            </p>
+        </footer>  
+        
+        <script src="js/index.js">
+        </script>
+    </body>
+
+</html>

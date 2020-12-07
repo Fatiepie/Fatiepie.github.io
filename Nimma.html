@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neil's Portfolio | Nim.ai
+            
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+        <header>
+            <div class="logo">
+                <a href="index.html"img src="img/Dev Neo (1)z.png" alt="">
+                <img src="img/Dev Neo (1)z.png" alt="">
+            </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class ="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#exp" class="nav__link">Experience</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Introducing <strong>Nim.ai</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">AI that plays Nim!</p>
+            <img src="img/The-AI-Organization-Releases-New-Book-Artificial-Intelligence_-Dangers-to-Humanity.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Welcome to Nim.ai where an artificial intelligence system, named Nimma, trains itself through reinforcement learning, by playing against itself repeatedly and learning from experience, eventually the system will learn which actions to take and which actions to avoid. 
+
+            </p>
+            
+            <p>For those who don't know about Nim, the game begins with some number of piles, each with some number of objects. 
+                Players take turns: on a player’s turn, the player removes any non-negative number of objects from any one non-empty pile. 
+                Whoever removes the last object loses.
+
+            </p>
+            <p>
+                Nimma uses the Q-Learning algorithm to create reward system for the learning process. 
+                An action that loses the game will have a reward of -1, an action that results in the other player losing the game will have a reward of 1, and an action that results in the game continuing has an immediate reward of 0, but will also have some future reward.
+            </p>
+ 
+            <p>
+                With these rules in mind, Nimma goes through a training period of 10,000 games where it keeps playing the game with itself and rewards and punishes itself, given a situation.  
+            </p>
+            
+                <p>
+               I hope you enjoy the demo!
+            </p>
+            </p>
+            <div class="videowrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GM1IGPXVKPk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>
+
+            </p>
+            <div style="text-align:center;">
+                <h3>Inspiration behind Nimma </h3>
+            </div>
+            <p>
+                Nimma.ai was a little project that was inspired after learning about artificial intelligence. The game of Nim was one I used to play as a child with my older siblings, and I thought it would cool to implement my childhood game and play it against an AI.
+            </p>
+           
+            <div style="text-align:center;">
+                <h3>Lessons learned from the project</h3>
+            </div>
+            <p>
+               Nimma had taught the various aspects of reinforcement learning and how Q-Learning is an amazing concept for AI systems. The thought of devising a way to make a rewarding system to teach an AI as if it were a child, was an eye-opener to me. 
+            </p>
+            <p>
+                There are a lot of concepts for reinforcement learning which I had researched about after this project (about Markov Decision Process and all that good stuff) which brought me closer to learning about AI algorithms and systems, mmore enjoyable.
+            </p>
+ 
+
+        </div>
+
+         <!-- Footer -->
+         <footer class="footer">
+            <p>
+                Stay in touch!
+            </p>
+            
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="mailto:n24ferna@uwaterloo.ca"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/n24ferna/"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/neilfernandes10"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/Fatiepie"><i class="fab fa-github"></i></a>
+                </li>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://devpost.com/Fatiepie?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+                    <i class="fab fa-dev"></i></a>
+                </li>
+            </ul>
+            <p>
+                Made by Neil Fernandes
+            </p>
+        </footer>  
+        
+        <script src="js/index.js">
+        </script>
+    </body>
+
+</html>
