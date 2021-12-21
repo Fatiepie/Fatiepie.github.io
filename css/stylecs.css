@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+
+
+body{
+background-color: #000;
+margin:0;
+position: fixed;
+color: #ffffff;
+margin-bottom: 15px;
+padding-bottom: 75px;
+}
+
+
+
+h2{
+font-family: Staatliches;
+color: #fff;
+font-size: 3.8em;
+font-style: italic;
+letter-spacing: 7px;
+}
+
+h3{
+font-family: Open Sans;
+color: #ffff;
+}
+
+.Reminder_Sec{
+position: fixed;
+bottom: 25px;
+padding: 45px;
+text-align: right;
+right: 0;
+}

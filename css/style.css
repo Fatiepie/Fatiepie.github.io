@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+
+
 :root {
   --ff-primary: "Source Sans Pro", Impact;
   --ff-secondary: "Source Code Pro", monospace;
@@ -566,3 +571,16 @@ header {
   text-align: center;
   color: var(--clr-light);
 }
+
+
+/* Coming Soon Page */
+
+.comingsoon{
+  background-color: #000;
+  margin:0;
+  position: fixed;
+  color: #ffffff;
+  margin-bottom: 15px;
+  padding-bottom: 75px;
+}
+
